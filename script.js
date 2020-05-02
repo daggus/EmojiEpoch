@@ -1,6 +1,6 @@
 // editable info
 
-const publicSpreadsheetUrl =
+const publicSpreadsheetUrl = 
   "https://docs.google.com/spreadsheets/d/1FQKnNwy1lUrMLHC87sgj9xohi1jDHHcoYijIg8Ur7kc/edit?usp=sharing"; // change this to your own URL
 const categoryStartNum = 3; // let the program know where the categoy begins on the spreadsheet column. Default value is 3.
 const sheetName = "Sheet1"; // this has to match your google doc sheet name
