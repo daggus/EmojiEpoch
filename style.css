@@ -1,14 +1,27 @@
 /* CSS files add styling rules to your content */
 
 body {
-font-family: 'Overpass', serif;  background-color: #BABD8D;
+  font-family: "Overpass", serif;
+  background-color: #1DA1F2;
   margin: 2em;
   padding: 2em;
-  font-size: 18px;
-  line-height:20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-hr{ 
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td {
+  width: 25% ;
+  padding: 24px;
+}
+
+
+
+hr {
   height: 1px;
   color: #999966;
   background-color: #999966;
@@ -29,11 +42,42 @@ p {
   margin: 2px;
 }
 
+h2,
+p {
+  padding: 12px 3px;
+  font-size: 24px;
+  margin: 2px;
+  text-align: center;
+}
+
+caption,
+p {
+  padding: 12px 3px;
+  font-size: 24px;
+  margin: 2px;
+}
+
+h3,
+p {
+  color: white;
+  padding: 12px 3px;
+  font-size: 90px;
+  margin: 2px;
+}
+
+label,
+p {
+  color: white;
+  padding: 12px 3px;
+  font-size: 20px;
+  margin: 2px;
+}
+
 a,
 p {
   color: black;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 a.itemLink,
@@ -41,12 +85,12 @@ p.itemPara {
   float: left;
   display: inline-block;
   border-radius: 12px;
-  background-color: #a9ab79;
+  background-color: #1198ed;
 }
 
 .filterDiv,
 .show {
-  float: left;
+  float: center;
   width: 100%;
 }
 
@@ -76,7 +120,7 @@ p.itemPara {
 /* Style the buttons */
 .btn {
   border-radius: 12px;
-  background-color: #999966;
+  background-color: #CCD6DD;
   font-size: 16px;
   border: none;
   outline: none;
@@ -84,10 +128,10 @@ p.itemPara {
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #E1E8ED;
 }
 
 .btn.active {
-  background-color: #666;
+  background-color: #66757F;
   color: white;
 }
