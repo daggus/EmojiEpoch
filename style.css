@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #1DA1F2;
   margin: 2em;
 /*   padding: 2em; */
@@ -15,24 +15,27 @@ table {
   width: 100% ;
 }
 
-/* table, th, td {
+table, th, td {
   border: 1px solid black;
-} */
+}
 
 td {
 max-width:100%;
 /*   padding: 24px; */
   text-align: center;
+  color: #FFFFFF
 }
 
 th {
   text-align: center;
+  color: #FFFFFF;
 }
 
 hr {
   height: 1px;
-  color: #999966;
-  background-color: #999966;
+  width: 180px;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
   border: none;
 }
 
@@ -48,6 +51,8 @@ p {
   padding: 12px 3px;
   font-size: 50px;
   margin: 2px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 h2,
@@ -55,6 +60,8 @@ p {
   padding: 12px 3px;
   font-size: 24px;
   margin: 2px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 caption,
@@ -62,14 +69,25 @@ p {
   padding: 12px 3px;
   font-size: 24px;
   margin: 2px;
+  color: #FFFFFF;
+
 }
 
 h3,
 p {
-  color: white;
+  color: #ffcc33;
   padding: 12px 3px;
   font-size: 70px;
   margin: 2px;
+}
+
+h4,
+p {
+  color: #FFFFFF;
+  padding: 12px 3px;
+  font-size: 16px;
+  margin: 2px;
+  text-align: center;
 }
 
 label,
@@ -82,7 +100,7 @@ p {
 
 a,
 p {
-  color: black;
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 24px;
 }
