@@ -15,9 +15,9 @@ table {
   width: 100% ;
 }
 
-table, th, td {
+/* table, th, td {
   border: 1px solid black;
-}
+} */
 
 td {
 max-width:100%;
@@ -135,11 +135,13 @@ p.itemPara {
 
 #myBtnContainer {
   margin-bottom: 20px;
+  align-content: center;
 }
 
 .container {
   margin-bottom: 20px;
   overflow: hidden;
+  
 }
 
 /* Style the buttons */
